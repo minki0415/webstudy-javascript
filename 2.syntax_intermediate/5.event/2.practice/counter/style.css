@@ -1,0 +1,44 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+/* reset.css */
+body {
+    margin: 0;
+    font-family : 'Titillium Web', 'Open Sans';
+}
+
+/* style.css */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2, p {
+    color: black;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.container p {
+    color: gray;
+}
+
+
+
+.btn {
+    font-family : 'Titillium Web', 'Open Sans';
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 3px dashed black;
+    padding: 0.5rem 0.75rem;
+    margin: 0.5rem;
+}
